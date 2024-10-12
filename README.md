@@ -15,7 +15,8 @@
 - [Credits]
 - [License]
 ## Installation
-1. Download the right file of node.js to your computer and select what folder are downloading it.  If a Mac, then download the Mac node.js version, if a Windows user then the Windows's version.  2. Open VS code then open new terminal and find where the folder has node.js.  
+1. Download the right file of node.js to your computer and select what folder are downloading it.  If a Mac, then download the Mac node.js version, if a Windows user then the Windows's version.
+2. Open VS code then open new terminal and find where the folder has node.js.  
 2a. Create a new folder (mkdir) and label it 'challenges'.  then create another folder and label  it 'professional readme gen'.  
 3. Pull the Challenge folder from your Node.Js Activities, copy the 'utils', .gitignore, index.js and package.json; and drop into the 'professional readme gen (prg)' folder.
 4. Go to your GitHub and create a new Repo, include a license and ReadMe.md.  

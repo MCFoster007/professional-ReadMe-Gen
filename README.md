@@ -36,7 +36,7 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Usage
 
 Your intro Repo page:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-11 at 10.45.44 PM.png
-Your inquirer code:
+Your inquirer code:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-12 at 12.22.57 AM.png
 Your Settings-Pages-link:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-11 at 11.08.57 PM.png
 
 

@@ -33,13 +33,13 @@ function init() {
         .prompt(questions)
         .then((answers) => {
             const readmeContent = `
-# ${answers.title}
+// # ${answers.title}
 
-## Installation
-${answers.installation}
+// ## Installation
+// ${answers.installation}
 
-## Repository Location
-${answers.location}
+// ## Repository Location
+// ${answers.location}
 
             `;
             writeToFile('README.md', readmeContent);

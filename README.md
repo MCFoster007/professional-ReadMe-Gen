@@ -1,13 +1,19 @@
+# professional readme gen
 
-# pro readme gen
+## Description
 
+
+- To provide a helpful guide
+- To provide a questionnaire
+- Learn the concept of Inquirer
+- How to generate questions with Node.js
+
+## Table of Contents 
+- [Installation]
+- [Usage]
+- [Credits]
+- [License]
 ## Installation
-node.js
-
-<<<<<<< HEAD
-## Repository Location
-github
-=======
 1. Download the right file of node.js to your computer and select what folder are downloading it.  If a Mac, then download the Mac node.js version, if a Windows user then the Windows's version.  2. Open VS code then open new terminal and find where the folder has node.js.  
 2a. Create a new folder (mkdir) and label it 'challenges'.  then create another folder and label  it 'professional readme gen'.  
 3. Pull the Challenge folder from your Node.Js Activities, copy the 'utils', .gitignore, index.js and package.json; and drop into the 'professional readme gen (prg)' folder.
@@ -71,4 +77,5 @@ https://img.shields.io/badge/:badgeContent
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 >>>>>>> 94d655c745859f9e1835fa7d40241ce32964eac9
 
+            
             

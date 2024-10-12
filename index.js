@@ -1,38 +1,49 @@
-// TODO: Include packages needed for this application
+import inquirer from 'inquirer';
+import fs from 'fs';
 
 // TODO: Create an array of questions for user input
-const questions = [{
-    type: "input",
-    name: "title",
-    message: "What is your project called?",
-},
-{
-    type: "input",
-    name: "description",
-    message: "Briefly describe the project",
-},
-{
-    type: "input",
-    name: "installation",
-    message: "What coding language did you install?",
-},
-{
-    type: "input",
-    name: "location",
-    message: "What location is your Repo in?",
-},
+const questions = [
+    {
+        type: "input",
+        name: "title",
+        message: "What is your project called?",
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What coding language did you install?",
+    },
+    {
+        type: "input",
+        name: "location",
+        message: "What location is your Repo in?",
+    },
 ];
 
 // TODO: Create a function to write README file
-//some like it should call fs.writefil
-
 function writeToFile(fileName, data) {
-
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.log(err) : console.log('Success! README file created!')
+    );
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    //this wil probably cal inquirer .prompt. then(..)
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            const readmeContent = `
+# ${answers.title}
+
+## Installation
+${answers.installation}
+
+## Repository Location
+${answers.location}
+
+            `;
+            writeToFile('README.md', readmeContent);
+        });
 }
 
 // Function call to initialize app

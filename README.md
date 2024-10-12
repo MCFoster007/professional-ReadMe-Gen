@@ -1,5 +1,21 @@
+# professional-ReadMe-Gen
 
-# professional readme gen
+## Description
+
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+
+- To create a helpful guide to share
+- To guide someone on an application and it's functionality 
+- How Inquirer concept works and how interactive it is
+- How to solve the Inquirer concept, the node index.js purpose and to create a walkthrough video
+
+## Table of Contents 
+
+
+- [Installation]
+- [Usage]
+- [Credits]
+- [License]
 
 ## Installation
 
@@ -19,9 +35,9 @@
 
 ## Usage
 
-Your intro Repo page:
+Your intro Repo page:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-11 at 10.45.44 PM.png
 Your inquirer code:
-Your Settings-Pages-link:
+Your Settings-Pages-link:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-11 at 11.08.57 PM.png
 
 
 ## Credits
@@ -65,4 +81,3 @@ https://img.shields.io/badge/:badgeContent
 
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-            

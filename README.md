@@ -34,7 +34,11 @@
 Your intro Repo page:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-11 at 10.45.44 PM.png
 Your inquirer code:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-12 at 12.22.57 AM.png
 Your Settings-Pages-link:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/Screenshot 2024-10-11 at 11.08.57 PM.png
+<<<<<<< HEAD
 Video of walkthrough:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/video1206856586.mp4
+=======
+Video of Walkthrough:/Users/mcmindmachine/Desktop/Getting Started/bootcamp/challenges/07-challenges/professional-ReadMe-Gen/utils/images/video1206856586.mp4
+>>>>>>> 2a0aee5bd150abd2f4a867ac949b0e6d7ba3f636
 
 
 ## Credits

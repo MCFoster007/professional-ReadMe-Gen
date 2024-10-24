@@ -42,7 +42,7 @@ function init() {
 // ${answers.location}
 
             `;
-            //writeToFile('README.md', readmeContent);
+            writeToFile('GenREADME.md', readmeContent);
         });
 }
 

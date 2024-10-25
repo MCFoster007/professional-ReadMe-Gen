@@ -1,36 +1,36 @@
 
- # prof gen read
+ # the pro gen readme
 
  ## Description
- aboaut generating a readme page
+ ab oaut a readme file
 
  ## Table of Contents
  undefined
 
   ## Installation
-  node.js
+  node 
 
  ## Usage
- on youtube link provided
+ youtube link in the git hub
 
  ## Credits
- dan, tutor and ta's
+ Dan, tutors and TA's
 
 
   ## License
-  mit
+  MIT license
 
  ## Badges
  io
 
  ## Features
- node, javascript
+ node javaascript
 
   ## How to Contribute
   undefined
 
  ## Testing
- node index.js in your terminal
+ node index.js command
 
 
             

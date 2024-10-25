@@ -1,10 +1,36 @@
 
-// # the book
+ # prof gen read
 
-// ## Installation
-// node
+ ## Description
+ aboaut generating a readme page
 
-// ## Repository Location
-// Github
+ ## Table of Contents
+ undefined
+
+  ## Installation
+  node.js
+
+ ## Usage
+ on youtube link provided
+
+ ## Credits
+ dan, tutor and ta's
+
+
+  ## License
+  mit
+
+ ## Badges
+ io
+
+ ## Features
+ node, javascript
+
+  ## How to Contribute
+  undefined
+
+ ## Testing
+ node index.js in your terminal
+
 
             

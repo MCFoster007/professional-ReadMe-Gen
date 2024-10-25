@@ -10,13 +10,53 @@ const questions = [
     },
     {
         type: "input",
+        name: "description",
+        message: "What is the description?",
+    },
+    {
+        type: "input",
+        name: "table of contents",
+        message: "What is the Table of Contents?",
+    },
+    {
+        type: "input",
         name: "installation",
         message: "What coding language did you install?",
     },
     {
         type: "input",
-        name: "location",
-        message: "What location is your Repo in?",
+        name: "usage",
+        message: "Where can i find your video of the walkthrough?",
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Who do you give credit(s) too?",
+    },
+    {
+        type: "input",
+        name: "license",
+        message: "What license do you have?",
+    },
+    {
+        type: "input",
+        name: "badges",
+        message: "What badges do you have?",
+    },
+    {
+        type: "input",
+        name: "features",
+        message: "What features do you have?",
+    },
+    {
+        type: "input",
+        name: "how to contribute",
+        message: "Do you allow contribution to your README.md?",
+    },
+    {
+        type: "input",
+        name: "testing",
+        message: "How do you test this?",
     },
 ];
 
@@ -33,13 +73,39 @@ function init() {
         .prompt(questions)
         .then((answers) => {
             const readmeContent = `
-// # ${answers.title}
+ # ${answers.title}
 
-// ## Installation
-// ${answers.installation}
+ ## Description
+ ${answers.description}
 
-// ## Repository Location
-// ${answers.location}
+ ## Table of Contents
+ ${answers.tableofcontents}
+
+  ## Installation
+  ${answers.installation}
+
+ ## Usage
+ ${answers.usage}
+
+ ## Credits
+ ${answers.credits}
+
+
+  ## License
+  ${answers.license}
+
+ ## Badges
+ ${answers.badges}
+
+ ## Features
+ ${answers.features}
+
+  ## How to Contribute
+  ${answers.howtocontribute}
+
+ ## Testing
+ ${answers.testing}
+
 
             `;
             writeToFile('GenREADME.md', readmeContent);
